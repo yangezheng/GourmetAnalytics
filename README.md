@@ -1,17 +1,24 @@
 # Gourmet Analytics
 
-GOAL:  Use  these  data  sets  to  develop  a  model  that  can  predict  the  outcome  of  the  column  Like,  which 
+__TASK__:  Use  these  data  sets  to  develop  a  model  that  can  predict  the  outcome  of  the  column  Like,  which 
 indicates  whether  a  customer  likes  a  recipe  (your  model  predicts  Like=1)  or  dislikes  it  (your  model  predicts 
 Like=0).  
+
 For  reviews  with  a  TestSetId  and  for  which  you  are  not  given  the  Like  (the “private  test  set”), you must make 
 predictions  that  will  form  your  submission.  See  the  “submission_template.csv”  for  details  about  the  required 
 format. Your project will be evaluated and graded based on these predictions.
 
 ## Files
+
 ```
 .
-│   Data Description.pdf
+├── Template
+│   ├── crisp_dm.png
+│   ├── example_crisp_dm_pipeline.ipynb
+│   ├── iris_dataset.csv
+│   └── iris_prediction.csv
 ├── Data
+│   ├── Data Description.pdf
 │   ├── diet.csv
 │   ├── recipes.csv
 │   ├── requests.csv
